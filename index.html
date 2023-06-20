@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Banking System</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include CSS stylesheets and JavaScript files -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="/image/logo/logo_small.png" alt="Bank-Logo" />
+        </div>
+
+        <button id="toggleNavButton" onclick="toggleNav()">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/customers.html">View All Customers</a></li>
+          <li><a href="/transfer.html">Transfer Money</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="main-heading">Welcome to Basic Banking System</h1>
+          <p class="sub-heading">Easy and Secure Banking Solutions</p>
+          <p class="description">
+            Experience hassle-free banking with our user-friendly system. View
+            all customers, transfer money securely, and enjoy a seamless banking
+            experience.
+          </p>
+          <a href="customers.html" class="button">Get Started</a>
+        </div>
+      </section>
+      <section class="customer-section">
+        <h2 class="section-heading">Our Valued Customers</h2>
+        <ul id="customerList" class="customer-list">
+          <li>
+            <a href="customer.html">
+              <div class="customer-item">
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                  alt="Customer Avatar"
+                  class="avatar"
+                />
+                <span class="customer-name">Jane</span>
+              </div>
+            </a>
+          </li>
+          <!-- Additional customer items will be inserted here -->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Basic Banking System. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
